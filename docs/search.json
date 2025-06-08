@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This resource is designed to act as a gentle guide away from the world of mathematical problems being the be-all and end-all of introductory coding examples.\nUsing mathematical examples can be appropriate depending on the context, but we rely on them too much when it comes to introducing basic coding principles.\nExpecting new learners to code examples based on maths problems:\n\nAdds to the cognitive load involved for the learners if they are unfamiliar with the particular maths problem;\nCan lead to confusion when debugging: is my code wrong, or is my maths wrong?\nReinforces the incorrect idea that programming is solely the realm of the maths-proficient;\nIgnores the wealth of cool non-maths things code can do.\n\nBecause we all use maths examples so often, it can be hard to even think of alternatives. That’s where this comes in: I wanted somewhere to bank my ideas when I had them, so I wouldn’t lose them and have forgotten them by the time teaching came around again."
+  },
+  {
+    "objectID": "accessibility.html",
+    "href": "accessibility.html",
+    "title": "Accessibility and Inclusive Design",
+    "section": "",
+    "text": "This resource aims to reshape coding education to better include people who have been excluded. As part of that, I want to make this website user-friendly; specifically I want it to work for people who use the keyboard to navigate, people who use screen-readers to interact with content, and need high-contrast text.\nWe are using Quarto with the United Bootstrap Theme , under the MIT license.\nSome modifications have been made to improve this theme:\n\nAdding focus indicators on navigation items, and increasing border-width and contrast of focus indicators.\nUsing higher-contrast colour palettes than the default option provided.\n\nBuilding an accessible web should be an iterative and responsiveBuilding this web resource is an iterative and responsive process; please leave a comment with the Hypothes.is app, or visit the git repository for this website and open an issue or discussion. You can also find my contact details there."
+  },
+  {
+    "objectID": "template.html",
+    "href": "template.html",
+    "title": "Post template",
+    "section": "",
+    "text": "Here is some more content\nYou can put code snippets like this:\n\nx = 3 + 2\n\nprint(x)"
+  },
+  {
+    "objectID": "template.html#here-is-some-content",
+    "href": "template.html#here-is-some-content",
+    "title": "Post template",
+    "section": "",
+    "text": "Here is some more content\nYou can put code snippets like this:\n\nx = 3 + 2\n\nprint(x)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Coding project ideas",
+    "section": "",
+    "text": "This is a bank of various different project ideas that can be used in coding and research software engineering lessons. Find out my motivation for building this resource. If you have an idea, please contribute to the project. Please also feel free to leave comments in the discussions section of the repository for this project, or by leaving a comment with the Hypothes.is in the sidebar on all other pages except this one.\n\n\n\n\n\n\nNote\n\n\n\nThe project suggestions below are to spark ideas: they usually do not include example code or full lesson plans.\nThe examples are intended to be largely language-agnostic, and are aimed at experienced facilitators who will be leading the code workshop, not at the learners themselves. That said, ambitious learners might well find useful inspiration here!\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Level\n        \n         \n          Categories\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nCreate a project directory template\n\n\n2 min\n\n\n\nfiles\n\n\ndirectories\n\n\ndata management\n\n\n\n\nMaeve Murphy Quinlan\n\n\n\n\n\nLevel\n\n\nAdvanced beginner\n\n\n\n\nLanguage\n\n\nAgnostic\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "ideas/folder-structure.html",
+    "href": "ideas/folder-structure.html",
+    "title": "Create a project directory template",
+    "section": "",
+    "text": "Learning to code often implicitly involves learning how to:\nThis project lets the learner do all of this, without it having to happen as part of a bigger, more complex project."
+  },
+  {
+    "objectID": "ideas/folder-structure.html#create-a-project-template",
+    "href": "ideas/folder-structure.html#create-a-project-template",
+    "title": "Create a project directory template",
+    "section": "Create a project template",
+    "text": "Create a project template\nI realised this project prompt was useful after I built a mini tool like this myself in order to act as a template when I was teaching beginners. While building this might be a bit tricky for an absolute beginner, it is quite straightforward and can be made more simple/more complex without much work.\n\n\n\n\n\n\nPrompt\n\n\n\nCreate a tool that lets you input a project name, and then automatically creates a directory/folder structure for you with a series of nested folders and template files.\n\n\nMy implementation/interpretation of this can be found here: I created a little Streamlit app that prints out Bash code for you to copy and paste into your command line.\nYou could also:\n\nUse Python, R, or another language instead of Bash to create the files;\nYou could create a simple Command Line Interface (CLI) tool instead of a GUI;\n\n\n\n\n\n\n\nTip\n\n\n\nStart very simple: create a single file or a single folder, and work up from there! Dealing with relative file paths can be tricky."
+  },
+  {
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "Contribute your ideas",
+    "section": "",
+    "text": "This resource works best as a community effort.\nTo add an idea, simply go to our git repository and create a new file (see instructions here).\nYou can use the following template:\n---\ntitle: \"Post template\"\nsubtitle: \"A little more information here\"\nauthor:\n  - name: Author Name Here\n    orcid: orcid ID here or delete line\n    url: website here or delete line\ndescription: \"A brief description goes here.\"\ncategories: [themes, here, separated, by, commas]\nlevel: \"Delete all but one: Beginner | Intermediate | Advanced | All\"\nlanguage: \"Agnostic\"\n---\n\n## Here is some content\n\nHere is some more content\n\nYou can put code snippets like this:\n\n```python\n\nx = 3 + 2\n\nprint(x)\n\n```\n\nThis resource is licensed under CC BY-SA 4.0, and any submission to the project will be under the same license."
+  }
+]

@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+  - "assets/*"
+
+website:
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Draft** - please note that this is still in draft format! Links may not yet work."
+    type: primary
+    position: below-navbar
+  comments:
+    hypothesis: true
+  cookie-consent: true
+  site-url: "https://www.quarto.org"
+  title: "Learning Code: Project Ideas (that aren't all maths!)"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: contribute.qmd
+        text: Contribute
+      - href: accessibility.qmd
+        text: Accessibility
+
+format:
+  html:
+    theme: united
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "606bcafb"
+  },
+  "ideas/idea-1.qmd": {
+    "idea-1.html": "4ccd89e3"
+  },
+  "ideas/idea-3.qmd": {
+    "idea-3.html": "576dfdcd"
+  },
+  "ideas/idea-2.qmd": {
+    "idea-2.html": "05193a9d"
+  },
+  "about.qmd": {
+    "about.html": "c3e8b824"
+  },
+  "ideas/template.qmd": {
+    "template.html": "c211851a"
+  },
+  "contribute.qmd": {
+    "contribute.html": "9acd81f6"
+  },
+  "accessibility.qmd": {
+    "accessibility.html": "7a199be3"
+  },
+  "template.qmd": {
+    "template.html": "6caec14f"
+  },
+  "ideas/folder-structure.qmd": {
+    "folder-structure.html": "08e60750"
+  }
+}

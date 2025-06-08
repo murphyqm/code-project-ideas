@@ -1,0 +1,26 @@
+---
+title: "Post template"
+subtitle: "A little more information here"
+author:
+  - name: Author Name Here
+    orcid: orcid ID here or delete line
+    url: website here or delete line
+description: "A brief description goes here."
+categories: [themes, here, separated, by, commas]
+level: "Delete all but one: Beginner | Intermediate | Advanced | All"
+code-lang: "Agnostic"
+---
+
+## Here is some content
+
+Here is some more content
+
+You can put code snippets like this:
+
+```python
+
+x = 3 + 2
+
+print(x)
+
+```

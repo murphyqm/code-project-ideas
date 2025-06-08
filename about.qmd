@@ -1,0 +1,16 @@
+---
+title: "About"
+---
+
+This resource is designed to act as a gentle guide away from the world of mathematical problems being the be-all and end-all of introductory coding examples.
+
+Using mathematical examples *can* be appropriate depending on the context, but we rely on them too much when it comes to introducing basic coding principles.
+
+Expecting new learners to code examples based on maths problems:
+
+- Adds to the cognitive load involved for the learners if they are unfamiliar with the particular maths problem;
+- Can lead to confusion when debugging: *is my code wrong, or is my maths wrong?*
+- Reinforces the incorrect idea that programming is solely the realm of the maths-proficient;
+- Ignores the wealth of cool non-maths things code can do.
+
+Because we all use maths examples so often, it can be hard to even think of alternatives. That's where this comes in: I wanted somewhere to bank my ideas when I had them, so I wouldn't lose them and have forgotten them by the time teaching came around again.

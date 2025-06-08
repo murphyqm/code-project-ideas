@@ -1,0 +1,19 @@
+a.nav-link:focus, li.nav-item:focus {
+    outline: 2px solid #000000 !important;
+    border: 2px solid #ffffff !important;
+    border-radius: 0.375rem;
+}
+
+.navbar {
+    background-color: #762852;
+    color: #ffffff;
+}
+
+a {
+    color: #762852;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+    border-left: 1px solid #762852;
+    color: #762852 !important;
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Learning Code: Project Ideas (that aren&#39;t all maths!)</title>
+<link>https://www.quarto.org/</link>
+<atom:link href="https://www.quarto.org/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Sun, 08 Jun 2025 16:17:54 GMT</lastBuildDate>
+<item>
+  <title>Create a project directory template</title>
+  <dc:creator>Maeve Murphy Quinlan</dc:creator>
+  <link>https://www.quarto.org/ideas/folder-structure.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Learning to code often implicitly involves learning how to:</p>
+<ul>
+<li>Deal with relative and absolute paths;</li>
+<li>Open/close/create/save/edit/delete files;</li>
+<li>Navigate folder or directory structures;</li>
+<li>Output information to the screen/to a file.</li>
+</ul>
+<p>This project lets the learner do all of this, without it having to happen as part of a bigger, more complex project.</p>
+<section id="create-a-project-template" class="level2">
+<h2 class="anchored" data-anchor-id="create-a-project-template">Create a project template</h2>
+<p>I realised this project prompt was useful after I built a mini tool like this myself in order to act as a template when I was teaching beginners. While building this might be a bit tricky for an absolute beginner, it is quite straightforward and can be made more simple/more complex without much work.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Prompt
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Create a tool that lets you input a project name, and then automatically creates a directory/folder structure for you with a series of nested folders and template files.</p>
+</div>
+</div>
+<p><a href="https://software-dev.streamlit.app/Project_Workflow#2-create-package-repository-and-directory-structure">My implementation/interpretation of this can be found here</a>: I created a little Streamlit app that prints out Bash code for you to copy and paste into your command line.</p>
+<p>You could also:</p>
+<ul>
+<li>Use Python, R, or another language instead of Bash to create the files;</li>
+<li>You could create a simple Command Line Interface (CLI) tool instead of a GUI;</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Start very simple: create a single file or a single folder, and work up from there! Dealing with relative file paths can be tricky.</p>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>files</category>
+  <category>directories</category>
+  <category>data management</category>
+  <guid>https://www.quarto.org/ideas/folder-structure.html</guid>
+  <pubDate>Sun, 08 Jun 2025 16:17:54 GMT</pubDate>
+</item>
+</channel>
+</rss>

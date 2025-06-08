@@ -1,0 +1,15 @@
+---
+title: "Accessibility and Inclusive Design"
+---
+
+This resource aims to reshape coding education to better include people who have been excluded. As part of that, I want to make
+this website user-friendly; specifically I want it to work for people who use the keyboard to navigate, people who use screen-readers to interact with content, and need high-contrast text.
+
+We are using [Quarto](https://quarto.org/) with the [United Bootstrap Theme](https://bootswatch.com/united/) , under the MIT license.
+
+Some modifications have been made to improve this theme:
+
+- Adding focus indicators on navigation items, and increasing border-width and contrast of focus indicators.
+- Using higher-contrast colour palettes than the default option provided.
+
+Building an accessible web should be an iterative and responsiveBuilding this web resource is an iterative and responsive process; please leave a comment with the Hypothes.is app, or visit the [git repository](#) for this website and open an issue or discussion. You can also find my contact details there.

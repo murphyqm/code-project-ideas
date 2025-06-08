@@ -1,0 +1,26 @@
+---
+title: "Coding project ideas"
+comments: false
+listing:
+  contents: ideas
+  sort-ui: [title, author, date, level, categories]
+  filter-ui: true
+  sort: "date desc"
+  type: grid
+  categories: true
+  feed: true
+  fields: [title, author, date, reading-time, categories, level, code-lang]
+  field-display-names:
+    level: "Level"
+    code-lang: "Language"
+---
+
+This is a bank of various different project ideas that can be used in coding and research software engineering lessons. Find out [my motivation](about.qmd) for building this resource. If you have an idea, please [contribute to the project](contribute.qmd). Please also feel free to leave comments in the discussions section of the [repository for this project](#), or by leaving a comment with the Hypothes.is in the sidebar on all other pages except this one.
+
+:::{.callout-note}
+
+The project suggestions below are to spark ideas: they usually do not include example code or full lesson plans.
+
+The examples are intended to be largely language-agnostic, and are aimed at experienced facilitators who will be leading the code workshop, not at the learners themselves. That said, ambitious learners might well find useful inspiration here!
+
+:::

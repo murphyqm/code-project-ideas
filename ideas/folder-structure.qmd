@@ -1,0 +1,44 @@
+---
+title: "Create a project directory template"
+subtitle: "Use code to automate folder creation and template files"
+author:
+  - name: Maeve Murphy Quinlan
+    orcid: 0000-0003-2958-1008
+    url: https://arc.leeds.ac.uk/profiles/maeve-murphy-quinlan/
+description: "A brief description goes here."
+categories: [files, directories, data management]
+level: "Advanced beginner"
+code-lang: "Agnostic"
+---
+
+Learning to code often implicitly involves learning how to:
+
+- Deal with relative and absolute paths;
+- Open/close/create/save/edit/delete files;
+- Navigate folder or directory structures;
+- Output information to the screen/to a file.
+
+This project lets the learner do all of this, without it having to happen as part of a bigger, more complex project.
+
+## Create a project template
+
+I realised this project prompt was useful after I built a mini tool like this myself in order to act as a template when I was teaching beginners. While building this might be a bit tricky for an absolute beginner, it is quite straightforward and can be made more simple/more complex without much work.
+
+:::{.callout-note}
+### Prompt
+
+Create a tool that lets you input a project name, and then automatically creates a directory/folder structure for you with a series of nested folders and template files.
+:::
+
+[My implementation/interpretation of this can be found here](https://software-dev.streamlit.app/Project_Workflow#2-create-package-repository-and-directory-structure): I created a little Streamlit app that prints out Bash code for you to copy and paste into your command line.
+
+You could also:
+
+- Use Python, R, or another language instead of Bash to create the files;
+- You could create a simple Command Line Interface (CLI) tool instead of a GUI;
+
+:::{.callout-tip}
+
+Start very simple: create a single file or a single folder, and work up from there! Dealing with relative file paths can be tricky.
+
+:::

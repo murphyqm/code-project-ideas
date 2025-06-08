@@ -12,4 +12,11 @@ Some modifications have been made to improve this theme:
 - Adding focus indicators on navigation items, and increasing border-width and contrast of focus indicators.
 - Using higher-contrast colour palettes than the default option provided.
 
-Building an accessible web should be an iterative and responsiveBuilding this web resource is an iterative and responsive process; please leave a comment with the Hypothes.is app, or visit the [git repository](#) for this website and open an issue or discussion. You can also find my contact details there.
+Building an accessible web should be an iterative and responsiveBuilding this web resource is an iterative and responsive process; please leave a comment with the Hypothes.is app, or visit the [git repository](https://github.com/murphyqm/code-project-ideas) for this website and open an [issue](https://github.com/murphyqm/code-project-ideas/issues) or [discussion](https://github.com/murphyqm/code-project-ideas/discussions). You can also find my contact details there.
+
+I have made an intentional decision to use examples that I never saw when learning to code, that would have made me feel at home and competent. Some of these include:
+
+- Reference to knitting and crochet patterns and stitch types;
+- Use of spreadsheets, Excel, and acknowledgement of these as a form of programming.
+
+These examples are for a past me: when you are contributing content, please feel free to include similarly personal examples!

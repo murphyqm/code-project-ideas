@@ -14,7 +14,7 @@ website:
   comments:
     hypothesis: true
   cookie-consent: true
-  site-url: "https://www.quarto.org"
+  site-url: "https://murphyqm.github.io/code-project-ideas/"
   title: "Learning Code: Project Ideas (that aren't all maths!)"
   navbar:
     left:
@@ -25,7 +25,7 @@ website:
       - href: contribute.qmd
         text: Contribute
       - href: accessibility.qmd
-        text: Accessibility
+        text: "Accessibility & Inclusion"
 
 format:
   html:

@@ -1,1 +1,1 @@
-Sitemap: https://www.quarto.org/sitemap.xml
+Sitemap: https://murphyqm.github.io/code-project-ideas/sitemap.xml

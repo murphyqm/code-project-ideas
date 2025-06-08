@@ -6,15 +6,102 @@
       version="2.0">
 <channel>
 <title>Learning Code: Project Ideas (that aren&#39;t all maths!)</title>
-<link>https://www.quarto.org/</link>
-<atom:link href="https://www.quarto.org/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://murphyqm.github.io/code-project-ideas/</link>
+<atom:link href="https://murphyqm.github.io/code-project-ideas/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.39</generator>
-<lastBuildDate>Sun, 08 Jun 2025 16:17:54 GMT</lastBuildDate>
+<lastBuildDate>Sun, 08 Jun 2025 18:03:43 GMT</lastBuildDate>
+<item>
+  <title>Pixel Art Printer</title>
+  <dc:creator>Maeve Murphy Quinlan</dc:creator>
+  <link>https://murphyqm.github.io/code-project-ideas/ideas/pixel-art-printer.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>People who are learning code for research are likely to want to know how to:</p>
+<ul>
+<li>Load and save files from Excel spreadsheets or .csv files;</li>
+<li>Plot images from these files;</li>
+<li>Save these images out in different formats.</li>
+</ul>
+<p>Rather than plotting some made-up, generated, un-engaging data, lets instead make heatmaps come alive by using them as a pixel-art canvas, and getting a language of our choice to print out the result.</p>
+<p>This project idea was inspired by some in-progress work I’m doing building a little <a href="https://murphyqm.github.io/projects/teaching-python/intro_to_python.html">package to help people learn to handle arrays in Python with pixel graphics</a>.</p>
+<p>My suggestions for libraries are going to be in Python, but of course this project is language agnostic and will work with any language with basic plotting capabilities!</p>
+<p>This project can also be used to:</p>
+<ul>
+<li>Introduce functions;</li>
+<li>Introduce imports and dot notations;</li>
+<li>Discuss different data types and different file extensions.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Prompt
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Create a tool that takes in a spreadsheet or csv file filled with 1s and 0s (or with a number of values to create a palette) and then creates a simple heatmap, with the axes labels and ticks turned off (so it just appears as a pixel image as opposed to looking like a chart), and then saves this out.</p>
+</div>
+</div>
+<p>For this project, I’ve previously used Python, with the Pandas library (for dataframe manipulation, and easy handling of Excel or csv files), and then either Matplotlib or Seaborn for plotting the figure.</p>
+<p>Step-by-step, you’ll need to:</p>
+<ol type="1">
+<li>Load in the spreadsheet or csv file, and parse the values in the cells (you can discuss Boolean types, integers, floats etc. here);</li>
+<li>Set up some checks to see that the values from the imported file are within the expected range of values;</li>
+<li>Plot the values as a heatmap;</li>
+<li>Scale the colourmap or create a custom colour palette for the range of values;</li>
+<li>Remove axis labels and tick marks;</li>
+<li>Save the figure out in a sensible format;</li>
+<li>Create a small command-line interface to make it easy to use.</li>
+</ol>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Scaling this up: knitting or crochet patterns
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Another idea that can be developed from this one is that instead of plotting a heatmap, your code can generate a crochet (or knitting) pattern.</p>
+<p><strong>Note that the guidelines below assume competence in knitting and crochet! In the same way that it’s not a good idea to use maths problems to teach code if the learner isn’t confident in the subject, it’s best to only use these examples with a group that is comfortable and familiar with following patterns.</strong></p>
+<p>Creating knitting and crochet patterns from Booleans:</p>
+<ul>
+<li>You could use filet crochet, where a 0 stands for an open mesh square, and a 1 stands for a filled-in square (with a half-double crochet stitch, for example);</li>
+<li>You could use stocking stitch in the round, where a 0 stands for a regular knit stitch and a 1 for a purl stitch, so the pattern shows as texture. You could make this more useful (and complicated!) by instead making a pattern to work flat, where depending if the row is odd or even, the meaning of 1s and 0s swap.</li>
+<li>For printing out the pattern, there are a few different ways you could do this:
+<ul>
+<li>You could use an annotated heatmap (see the Seaborn gallery for examples), with <em>k</em>/<em>p</em> or <em>ch</em>/<em>hcd</em> as annotation.</li>
+</ul></li>
+</ul>
+<p>Creating patterns with multiple values/colours:</p>
+<ul>
+<li>You could also</li>
+</ul>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>plotting</category>
+  <category>art</category>
+  <category>graphics</category>
+  <category>csv</category>
+  <category>spreadsheets</category>
+  <guid>https://murphyqm.github.io/code-project-ideas/ideas/pixel-art-printer.html</guid>
+  <pubDate>Sun, 08 Jun 2025 18:03:43 GMT</pubDate>
+</item>
 <item>
   <title>Create a project directory template</title>
   <dc:creator>Maeve Murphy Quinlan</dc:creator>
-  <link>https://www.quarto.org/ideas/folder-structure.html</link>
+  <link>https://murphyqm.github.io/code-project-ideas/ideas/folder-structure.html</link>
   <description><![CDATA[ 
 
 
@@ -71,8 +158,8 @@ Tip
   <category>files</category>
   <category>directories</category>
   <category>data management</category>
-  <guid>https://www.quarto.org/ideas/folder-structure.html</guid>
-  <pubDate>Sun, 08 Jun 2025 16:17:54 GMT</pubDate>
+  <guid>https://murphyqm.github.io/code-project-ideas/ideas/folder-structure.html</guid>
+  <pubDate>Sun, 08 Jun 2025 18:03:43 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,68 @@
+---
+title: "Pixel Art Printer"
+subtitle: "Use code to plot some pixel art from a spreadsheet."
+author:
+  - name: Maeve Murphy Quinlan
+    orcid: 0000-0003-2958-1008
+    url: https://arc.leeds.ac.uk/profiles/maeve-murphy-quinlan/
+description: "A fun and visual approach to handling csv data."
+categories: [plotting, art, graphics, csv, spreadsheets]
+level: "Beginner"
+code-lang: "Agnostic"
+---
+
+People who are learning code for research are likely to want to know how to:
+
+- Load and save files from Excel spreadsheets or .csv files;
+- Plot images from these files;
+- Save these images out in different formats.
+
+Rather than plotting some made-up, generated, un-engaging data, lets instead make heatmaps come alive by using them as a pixel-art canvas, and getting a language of our choice to print out the result.
+
+This project idea was inspired by some in-progress work I'm doing building a little [package to help people learn to handle arrays in Python with pixel graphics](https://murphyqm.github.io/projects/teaching-python/intro_to_python.html).
+
+My suggestions for libraries are going to be in Python, but of course this project is language agnostic and will work with any language with basic plotting capabilities!
+
+This project can also be used to:
+
+- Introduce functions;
+- Introduce imports and dot notations;
+- Discuss different data types and different file extensions.
+
+:::{.callout-note}
+### Prompt
+
+Create a tool that takes in a spreadsheet or csv file filled with 1s and 0s (or with a number of values to create a palette) and then creates a simple heatmap, with the axes labels and ticks turned off (so it just appears as a pixel image as opposed to looking like a chart), and then saves this out.
+:::
+
+For this project, I've previously used Python, with the Pandas library (for dataframe manipulation, and easy handling of Excel or csv files), and then either Matplotlib or Seaborn for plotting the figure.
+
+Step-by-step, you'll need to:
+
+1. Load in the spreadsheet or csv file, and parse the values in the cells (you can discuss Boolean types, integers, floats etc. here);
+2. Set up some checks to see that the values from the imported file are within the expected range of values;
+3. Plot the values as a heatmap;
+4. Scale the colourmap or create a custom colour palette for the range of values;
+5. Remove axis labels and tick marks;
+6. Save the figure out in a sensible format;
+7. Create a small command-line interface to make it easy to use.
+
+:::{.callout-important}
+### Scaling this up: knitting or crochet patterns
+
+Another idea that can be developed from this one is that instead of plotting a heatmap, your code can generate a crochet (or knitting) pattern.
+
+**Note that the guidelines below assume competence in knitting and crochet! In the same way that it's not a good idea to use maths problems to teach code if the learner isn't confident in the subject, it's best to only use these examples with a group that is comfortable and familiar with following patterns.**
+
+Creating knitting and crochet patterns from Booleans:
+
+- You could use filet crochet, where a 0 stands for an open mesh square, and a 1 stands for a filled-in square (with a half-double crochet stitch, for example);
+- You could use stocking stitch in the round, where a 0 stands for a regular knit stitch and a 1 for a purl stitch, so the pattern shows as texture. You could make this more useful (and complicated!) by instead making a pattern to work flat, where depending if the row is odd or even, the meaning of 1s and 0s swap.
+- For printing out the pattern, there are a few different ways you could do this:
+    - You could use an annotated heatmap (see the Seaborn gallery for examples), with *k*/*p* or *ch*/*hcd* as annotation.
+
+Creating patterns with multiple values/colours:
+
+- You could also
+
+:::

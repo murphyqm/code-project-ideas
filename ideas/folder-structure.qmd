@@ -5,7 +5,7 @@ author:
   - name: Maeve Murphy Quinlan
     orcid: 0000-0003-2958-1008
     url: https://arc.leeds.ac.uk/profiles/maeve-murphy-quinlan/
-description: "A brief description goes here."
+description: "Build a useful tool for research project management."
 categories: [files, directories, data management]
 level: "Advanced beginner"
 code-lang: "Agnostic"
